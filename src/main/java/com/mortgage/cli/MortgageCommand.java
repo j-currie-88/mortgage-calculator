@@ -306,7 +306,7 @@ public class MortgageCommand implements Callable<Integer> {
             remainingBalance = year.endingBalance();
         }
         
-        NumberFormat currency = NumberFormat.getCurrencyInstance(Locale.US);
+        NumberFormat currency = NumberFormat.getCurrencyInstance(Locale.UK);
         
         System.out.println("\n=== Remaining Balance Query ===");
         System.out.println("After:              " + afterYears + " years");

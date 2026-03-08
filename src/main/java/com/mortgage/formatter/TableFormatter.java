@@ -9,8 +9,8 @@ import java.util.Locale;
 
 public class TableFormatter {
     
-    private static final NumberFormat CURRENCY = NumberFormat.getCurrencyInstance(Locale.US);
-    private static final NumberFormat PERCENT = NumberFormat.getPercentInstance(Locale.US);
+    private static final NumberFormat CURRENCY = NumberFormat.getCurrencyInstance(Locale.UK);
+    private static final NumberFormat PERCENT = NumberFormat.getPercentInstance(Locale.UK);
     
     static {
         PERCENT.setMinimumFractionDigits(2);
